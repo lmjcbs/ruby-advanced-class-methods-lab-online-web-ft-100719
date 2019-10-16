@@ -39,6 +39,7 @@ class Song
   end
 
   def self.alphabetical
-    self.all.sort
+    sorted_array = Array.new
+    self.all.map { |song| }
   end
 end
