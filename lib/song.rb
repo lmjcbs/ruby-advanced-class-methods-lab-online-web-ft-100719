@@ -49,5 +49,6 @@ class Song
     new_song = Song.new
     new_song.name = name
     new_song.artist_name = artist
+    new_song.save
   end
 end
