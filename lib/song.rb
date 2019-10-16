@@ -40,7 +40,7 @@ class Song
 
   def self.alphabetical
     sorted_array = Array.new
-    self.all.map { |song| sorted_array << song.name}
+    self.all.sort_by { |song| sorted_array << song.name}
     sorted_array.map { |song| self }
   end
 end
