@@ -26,5 +26,5 @@ class Song
     song = Song.new
   end
 
-  
+
 end
