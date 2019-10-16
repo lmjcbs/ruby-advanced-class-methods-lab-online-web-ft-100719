@@ -56,7 +56,7 @@ class Song
     song_artist = file.split(' - ')[0].to_s
     song_name = file.split(' - ')[1].split('.')[0].to_s
     song = create_by_name(song_name)
-    song.artist_name = song_artist
+    #song.artist_name = song_artist
     song
   end
 end
