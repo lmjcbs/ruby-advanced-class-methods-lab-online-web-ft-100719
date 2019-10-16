@@ -48,7 +48,7 @@ class Song
     song_name = file.split('.')[1].to_s
     song.name = song_name
     song.artist = song_artist
-    new_song.save
+    song.save
     song
   end
 end
