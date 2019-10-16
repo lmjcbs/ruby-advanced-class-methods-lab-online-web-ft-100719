@@ -46,5 +46,6 @@ class Song
     song = file.split(' - ')
     artist = song[0]
     name = song[1].split('.')[0]
+    
   end
 end
