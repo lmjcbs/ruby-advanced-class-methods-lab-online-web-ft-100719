@@ -20,5 +20,5 @@ class Song
     song = Song.new
     song.name = name
     song
-
+  end
 end
